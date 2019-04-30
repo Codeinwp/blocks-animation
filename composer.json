@@ -1,0 +1,17 @@
+{
+    "name": "codeinwp/blocks-animation",
+    "description": "CSS Animations for Gutenberg Blocks.",
+    "type": "wordpress-plugin",
+    "require": {
+        "codeinwp/gutenberg-animation": "dev-master",
+        "codeinwp/themeisle-sdk": "dev-master"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "ThemeIsle Team",
+            "email": "friends@themeisle.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
