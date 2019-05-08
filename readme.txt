@@ -1,4 +1,4 @@
-=== Blocks CSS: CSS Animations for Gutenberg Blocks ===
+=== Blocks Animation: CSS Animations for Gutenberg Blocks ===
 Contributors: themeisle, hardeepasrani
 Tags: gutenberg, block, block editor, editor, animation, animations, animate, styles, block animations
 Requires at least: 4.9    
