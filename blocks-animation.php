@@ -3,7 +3,7 @@
  * Plugin Name:       Blocks Animation: CSS Animations for Gutenberg Blocks
  * Plugin URI:        https://github.com/Codeinwp/blocks-animation
  * Description:       Blocks Animation allows you to add CSS Animations to all of your Gutenberg blocks in the most elegent way.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            ThemeIsle
  * Author URI:        https://themeisle.com
  * License:           GPL-3.0+
