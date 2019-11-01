@@ -2,7 +2,7 @@
 **Contributors:** [themeisle](https://profiles.wordpress.org/themeisle), [hardeepasrani](https://profiles.wordpress.org/hardeepasrani)  
 **Tags:** gutenberg, block, block editor, editor, animation, animations, animate, styles, block animations
 **Requires at least:** 4.9      
-**Tested up to:** 5.0    
+**Tested up to:** 5.3    
 **Requires PHP:** 5.4    
 **Stable tag:** trunk  
 **License:** GPLv3    
