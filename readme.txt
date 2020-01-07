@@ -19,3 +19,6 @@ The UI for Blocks Animation feels so native and intuitive, you won't even notice
 == Screenshots ==
 
 1. Block Animations
+
+
+== Changelog ==
