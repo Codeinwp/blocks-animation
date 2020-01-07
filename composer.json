@@ -1,6 +1,6 @@
 {
     "name": "codeinwp/blocks-animation",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "CSS Animations for Gutenberg Blocks.",
     "type": "wordpress-plugin",
     "require": {
