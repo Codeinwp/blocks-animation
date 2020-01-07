@@ -6,8 +6,9 @@ on:
     branches:
       - master
     paths:
-      - '!.wordpress-org/**'
-      - '!readme.txt'
+      - '.wordpress-org/**'
+      - 'readme.txt'
+      - '!*'
 jobs:
   run:
     runs-on: ubuntu-latest
