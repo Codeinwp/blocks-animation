@@ -1,4 +1,3 @@
-
 ## Releasing
 
 This repository uses conventional [changelog commit](https://github.com/Codeinwp/conventional-changelog-simple-preset) messages to trigger release 
