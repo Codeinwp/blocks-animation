@@ -12,6 +12,13 @@ module.exports = function (grunt) {
 				},
 				src: [ 'package.json', 'composer.json', 'package-lock.json' ]
 			},
+			metatag: {
+				options: {
+					prefix: 'Version:\\s*',
+					flags: ''
+				},
+				src: [ 'blocks-animation.php' ]
+			}
 		},
 		wp_readme_to_markdown: {
 			plugin: {
