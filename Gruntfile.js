@@ -2,14 +2,24 @@
 /* global require */
 
 module.exports = function (grunt) {
-	'use strict';
+	grunt.loadNpmTasks('grunt-version');
+	grunt.loadNpmTasks('grunt-wp-readme-to-markdown');
+	grunt.initConfig({
+		version: {
+			json: {
+				options: {
+					flags: ''
+				},
+				src: [ 'package.json', 'composer.json', 'package-lock.json' ]
+			},
+		},
+		wp_readme_to_markdown: {
+			plugin: {
+				files: {
+					'readme.md': 'readme.txt'
+				},
+			},
+		},
+	});
 
-	var loader = require('load-project-config'),
-		config = require('grunt-plugin-fleet');
-	config = config();
-	// jshint ignore: start
-	config.files.js.push('!**/*.js');
-	// jshint ignore: end
-	loader(grunt, config).init();
-	loader(grunt, config).init();
 };
