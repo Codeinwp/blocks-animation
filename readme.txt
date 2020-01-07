@@ -12,6 +12,7 @@ Blocks Animation allows you to add CSS Animations to all of your Gutenberg block
 
 == Description ==
 
+
 Blocks Animation allows you to add CSS Animations to all of your Gutenberg blocks in the most elegant way.
 
 The UI for Blocks Animation feels so native and intuitive, you won't even notice it's installed. Just install, and you will see animation settings in all the blocks, right in the Block Settings Sidebar.
