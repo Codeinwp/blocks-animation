@@ -12,7 +12,7 @@
         "wp-coding-standards/wpcs": "^1",
         "phpcompatibility/php-compatibility": "^9",
         "dealerdirect/phpcodesniffer-composer-installer": "0.4.4",
-        "automattic/vipwpcs": "^0.3.0"
+        "automattic/vipwpcs": "^1.0.0"
     },
     "license": "GPL-3.0+",
     "authors": [
