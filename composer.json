@@ -5,7 +5,7 @@
     "type": "wordpress-plugin",
     "require": {
         "codeinwp/themeisle-sdk": "^3.1",
-        "codeinwp/gutenberg-animation": "^1.0"
+        "codeinwp/gutenberg-animation": "^1.0.5"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.3",
