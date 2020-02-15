@@ -25,12 +25,16 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
+
 define( 'BLOCKS_ANIMATION_URL', plugins_url( '/', __FILE__ ) );
 define( 'BLOCKS_ANIMATION_PATH', dirname( __FILE__ ) );
+
 $vendor_file = BLOCKS_ANIMATION_PATH . '/vendor/autoload.php';
+
 if ( is_readable( $vendor_file ) ) {
 	require_once $vendor_file;
 }
+
 add_action(
 	'plugins_loaded',
 	function () {
@@ -42,6 +46,7 @@ add_action(
 		}
 	}
 );
+
 add_filter(
 	'themeisle_sdk_products',
 	function ( $products ) {
