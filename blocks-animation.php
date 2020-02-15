@@ -1,9 +1,16 @@
 <?php
 /**
+ * Loader for the ThemeIsle\GutenbergCSS
+ *
+ * @package     ThemeIsle\GutenbergAnimations
+ * @copyright   Copyright (c) 2019, Hardeep Asrani
+ * @license     http://opensource.org/licenses/gpl-3.0.php GNU Public License
+ * @since       1.0.0
+ *
  * Plugin Name:       Blocks Animation: CSS Animations for Gutenberg Blocks
  * Plugin URI:        https://github.com/Codeinwp/blocks-animation
  * Description:       Blocks Animation allows you to add CSS Animations to all of your Gutenberg blocks in the most elegent way.
- * Version:           1.0.2
+ * Version:           1.0.4
  * Author:            ThemeIsle
  * Author URI:        https://themeisle.com
  * License:           GPL-3.0+
@@ -13,6 +20,7 @@
  * WordPress Available:  yes
  * Requires License:    no
  */
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
@@ -26,7 +34,7 @@ if ( is_readable( $vendor_file ) ) {
 add_action(
 	'plugins_loaded',
 	function () {
-		// call this only if Gutenberg is active
+		// call this only if Gutenberg is active.
 		if ( function_exists( 'register_block_type' ) ) {
 			if ( class_exists( '\ThemeIsle\GutenbergAnimation' ) ) {
 				\ThemeIsle\GutenbergAnimation::instance();

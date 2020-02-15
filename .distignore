@@ -1,0 +1,15 @@
+.git
+.distignore
+.gitignore
+Gruntfile.js
+CONTRIBUTING.md
+phpcs.xml
+package.json
+package-lock.json
+composer.json
+composer.lock
+node_modules
+.wordpress-org
+.github
+.releaserc.yml
+.gitattributes
