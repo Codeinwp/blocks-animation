@@ -24,6 +24,13 @@ The UI for Blocks Animation feels so native and intuitive, you won't even notice
 
 ## Changelog ##
 
+##### [Version 1.0.5](https://github.com/Codeinwp/blocks-animation/compare/v1.0.4...v1.0.5) (2020-02-15)
+
+- Add additional animation-delay options.
+
+
+
+
 ##### [Version 1.0.4](https://github.com/Codeinwp/blocks-animation/compare/v1.0.3...v1.0.4) (2020-01-07)
 
 * Update dependencies and fix version
