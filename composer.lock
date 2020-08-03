@@ -8,21 +8,21 @@
     "packages": [
         {
             "name": "codeinwp/gutenberg-animation",
-            "version": "1.0.5",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/gutenberg-animation.git",
-                "reference": "c2c7055dfa1ac6d72a5ba7b950a95cf47040b5f9"
+                "reference": "76b7d1b2458148280dc03be8fe163a21bb0ee738"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/gutenberg-animation/zipball/c2c7055dfa1ac6d72a5ba7b950a95cf47040b5f9",
-                "reference": "c2c7055dfa1ac6d72a5ba7b950a95cf47040b5f9",
+                "url": "https://api.github.com/repos/Codeinwp/gutenberg-animation/zipball/76b7d1b2458148280dc03be8fe163a21bb0ee738",
+                "reference": "76b7d1b2458148280dc03be8fe163a21bb0ee738",
                 "shasum": ""
             },
             "require-dev": {
                 "automattic/vipwpcs": "^0.3.0 || ^1.0.0",
-                "dealerdirect/phpcodesniffer-composer-installer": "0.6.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "0.7.0",
                 "phpcompatibility/php-compatibility": "^9",
                 "squizlabs/php_codesniffer": "^3.3",
                 "wp-coding-standards/wpcs": "^1"
@@ -46,7 +46,7 @@
             ],
             "description": "CSS Animations for Gutenberg Blocks",
             "homepage": "https://github.com/Codeinwp/gutenberg-animation",
-            "time": "2020-02-15T00:15:35+00:00"
+            "time": "2020-08-03T11:01:26+00:00"
         },
         {
             "name": "codeinwp/themeisle-sdk",
