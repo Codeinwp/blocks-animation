@@ -1,8 +1,8 @@
 # Blocks Animation: CSS Animations for Gutenberg Blocks #
-**Contributors:** [themeisle](https://profiles.wordpress.org/themeisle), [hardeepasrani](https://profiles.wordpress.org/hardeepasrani)  
+**Contributors:** [themeisle](https://profiles.wordpress.org/themeisle), [hardeepasrani](https://profiles.wordpress.org/hardeepasrani), [mariamunteanu1](https://profiles.wordpress.org/mariamunteanu1)
 **Tags:** gutenberg, block, block editor, editor, animation, animations, animate, styles, block animations  
-**Requires at least:** 4.9      
-**Tested up to:** 5.3    
+**Requires at least:** 5.4      
+**Tested up to:** 5.5    
 **Requires PHP:** 5.4    
 **Stable tag:** trunk  
 **License:** GPLv3    
