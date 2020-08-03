@@ -1,3 +1,8 @@
+##### [Version 1.0.6](https://github.com/Codeinwp/blocks-animation/compare/v1.0.5...v1.0.6) (2020-08-03)
+
+- Improve Animation Picker
+- Test with WordPress 5.5
+
 ##### [Version 1.0.5](https://github.com/Codeinwp/blocks-animation/compare/v1.0.4...v1.0.5) (2020-02-15)
 
 - Add additional animation-delay options.
