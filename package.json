@@ -33,6 +33,6 @@
 		"grunt-version": "^2.0.0",
 		"grunt-wp-readme-to-markdown": "^2.0.1",
 		"replace-in-file": "^6.1.0",
-		"semantic-release": "^17.1.1"
+		"semantic-release": "^17.2.1"
 	}
 }
