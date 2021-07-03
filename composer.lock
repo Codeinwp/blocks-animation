@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51b127ba3909e2ddeb829cfc84fb4347",
+    "content-hash": "7edc7cccd6c5a9feb0c955f1d6e9f6a4",
     "packages": [
         {
             "name": "codeinwp/gutenberg-animation",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/gutenberg-animation.git",
-                "reference": "76b7d1b2458148280dc03be8fe163a21bb0ee738"
+                "reference": "77ce9ca0b1598e3645f10ce516ccfcefc33b0704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/gutenberg-animation/zipball/76b7d1b2458148280dc03be8fe163a21bb0ee738",
-                "reference": "76b7d1b2458148280dc03be8fe163a21bb0ee738",
+                "url": "https://api.github.com/repos/Codeinwp/gutenberg-animation/zipball/77ce9ca0b1598e3645f10ce516ccfcefc33b0704",
+                "reference": "77ce9ca0b1598e3645f10ce516ccfcefc33b0704",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,26 +46,28 @@
             ],
             "description": "CSS Animations for Gutenberg Blocks",
             "homepage": "https://github.com/Codeinwp/gutenberg-animation",
-            "time": "2020-08-03T11:01:26+00:00"
+            "support": {
+                "issues": "https://github.com/Codeinwp/gutenberg-animation/issues",
+                "source": "https://github.com/Codeinwp/gutenberg-animation/tree/v1.0.8"
+            },
+            "time": "2021-06-21T22:13:51+00:00"
         },
         {
             "name": "codeinwp/themeisle-sdk",
-            "version": "3.2.15",
+            "version": "3.2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-                "reference": "95b7447a5f4faba410c281c4bf278fbd740fed71"
+                "reference": "cafd016b61ec0928c0234e312046782a77c14318"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/95b7447a5f4faba410c281c4bf278fbd740fed71",
-                "reference": "95b7447a5f4faba410c281c4bf278fbd740fed71",
+                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/cafd016b61ec0928c0234e312046782a77c14318",
+                "reference": "cafd016b61ec0928c0234e312046782a77c14318",
                 "shasum": ""
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-                "squizlabs/php_codesniffer": "^3.1",
-                "wp-coding-standards/wpcs": "^1.0.0"
+                "codeinwp/phpcs-ruleset": "dev-main"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -79,12 +81,16 @@
                     "homepage": "https://themeisle.com"
                 }
             ],
-            "description": "ThemeIsle SDK.",
+            "description": "ThemeIsle SDK",
             "homepage": "https://github.com/Codeinwp/themeisle-sdk",
             "keywords": [
                 "wordpress"
             ],
-            "time": "2020-07-23T15:02:10+00:00"
+            "support": {
+                "issues": "https://github.com/Codeinwp/themeisle-sdk/issues",
+                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.2.21"
+            },
+            "time": "2021-06-30T10:55:18+00:00"
         }
     ],
     "packages-dev": [
@@ -132,6 +138,11 @@
                 "standards",
                 "wordpress"
             ],
+            "support": {
+                "issues": "https://github.com/Automattic/VIP-Coding-Standards/issues",
+                "source": "https://github.com/Automattic/VIP-Coding-Standards",
+                "wiki": "https://github.com/Automattic/VIP-Coding-Standards/wiki"
+            },
             "time": "2019-04-24T21:34:09+00:00"
         },
         {
@@ -198,6 +209,10 @@
                 "stylecheck",
                 "tests"
             ],
+            "support": {
+                "issues": "https://github.com/dealerdirect/phpcodesniffer-composer-installer/issues",
+                "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
+            },
             "time": "2020-06-25T14:57:39+00:00"
         },
         {
@@ -256,20 +271,24 @@
                 "phpcs",
                 "standards"
             ],
+            "support": {
+                "issues": "https://github.com/PHPCompatibility/PHPCompatibility/issues",
+                "source": "https://github.com/PHPCompatibility/PHPCompatibility"
+            },
             "time": "2019-12-27T09:44:58+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.5",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
-                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +326,12 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-04-17T01:09:41+00:00"
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
+            "time": "2021-04-09T00:54:41+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -350,6 +374,11 @@
                 "standards",
                 "wordpress"
             ],
+            "support": {
+                "issues": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues",
+                "source": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards",
+                "wiki": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/wiki"
+            },
             "time": "2018-12-18T09:43:51+00:00"
         }
     ],
@@ -360,5 +389,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
